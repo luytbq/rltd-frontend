@@ -1,0 +1,12 @@
+.data-item {
+  position: absolute;
+  width: fit-content;
+  user-select: none;
+}
+
+.data-item-switch {
+  cursor: pointer;
+}
+.data-item-switch.disabled {
+  cursor: not-allowed;
+}
